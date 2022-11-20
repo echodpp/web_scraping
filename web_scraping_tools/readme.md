@@ -4,3 +4,7 @@
 from selenium import webdriver
 
 chrome_options=webdrvier.ChromeOptions()
+chorme_options.headless =True
+chorme=webdriver.Chrome(
+  chrome_options=chrome_options)
+ page =chrome.get(url)
